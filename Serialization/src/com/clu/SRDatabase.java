@@ -12,7 +12,7 @@ import java.util.List;
 
 public class SRDatabase extends SRBase {
 
-	public static final byte[] HEADER = "RCDB".getBytes();
+	public static final byte[] HEADER = "SRLZ".getBytes();
 	public static final short VERSION = 0x0001;
 	public static final byte CONTAINER_TYPE = ContainerType.DATABASE; 
 	private short objectCount;	
